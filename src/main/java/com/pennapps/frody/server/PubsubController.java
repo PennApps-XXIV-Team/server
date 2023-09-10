@@ -23,6 +23,7 @@ public class PubsubController {
 
     private final String transactionTopicId = "transaction";
     private final String rawTransactionTopicId = "raw_transaction";
+    private final String flaggedTransactionTopicId = "flagged_transaction";
 //    private final PubsubService pubsubService;
     private Random random;
 
@@ -53,6 +54,23 @@ public class PubsubController {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             String jsonPayload = objectMapper.writeValueAsString(rawTransaction);
+            Publisher publisher = Publisher.newBuilder(topicName).build();
+            PubsubMessage pubsubMessage = PubsubMessage.newBuilder()
+                    .setData(ByteString.copyFrom(jsonPayload.getBytes()))
+                    .build();
+            publisher.publish(pubsubMessage);
+            return "Message published successfully.";
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("Error converting object to JSON", e);
+        }
+    }
+
+    @PostMapping("/publish/flaggedtransaction")
+    public String publishMessage(@RequestBody FlaggedTransaction flaggedTransaction) throws Exception {
+        TopicName topicName = TopicName.of(projectId, flaggedTransactionTopicId);
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            String jsonPayload = objectMapper.writeValueAsString(flaggedTransaction);
             Publisher publisher = Publisher.newBuilder(topicName).build();
             PubsubMessage pubsubMessage = PubsubMessage.newBuilder()
                     .setData(ByteString.copyFrom(jsonPayload.getBytes()))
