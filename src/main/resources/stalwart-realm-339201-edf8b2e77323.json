@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "stalwart-realm-339201",
+  "private_key_id": "edf8b2e773239bbfcff615be120924e69420ee9c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCiQjLY7Xz8BT3\nYg92rqLhPHIIuMe7TltnGiwW2blsgDFtRgG0fwfS4gH8QUafw5b90Jl2zekf1Tli\nwsxMo0mlmzPRajGJIma9gmMAzNW1CMJk079CB6ed/noNlV50KIorhGEafomLNuJm\nIv4gv24Z0e+jfxZ1ry/xgU7hMUrGjGU0uAJlZev5dODEzh1jHBDCeIJwammkxPhl\nhRpZmbqDCOsNPTlyikzrfPmIK2NB16zxZpop8pKEBkvOIB+KYHPpismll1hUL1SJ\nMEvutIRRaDXUtUMTE5KVgjusBNz+xjkOCJFGsL2EI/YsDftUl+b3DwF39M9EYUFI\n4uIgnyUPAgMBAAECggEAA+W88F46Cf4YXXBwgN800jBk1HnnPoBuYl1q3rZT+bGD\ny/2oERaucHIougYQxSilAMbKHFA5yHJ8KNdgQnTPB+tZGWv4PBgdWNSg6SYxbeQU\nCPMZFNiUahzsExOYBdm+EusfCunYFZru5D71OnC7YvcKxwrHx2nQGxWNIAPdzKaA\nengZXuyHxmXxtEfgwdeR2LPDqWioDAuGZUuluChOvsc7to09MFiQdbaouj6xMWAU\nCTxRnV5x6Fv2YIWvY8Q5sOlJpBEVQ8r3Fn0dcolIcKT/HzSb1s+RpL8c4li1wR4b\ncYzUq+acl4mAJbjX0si8YtybVcJ1py7F9rNJe6ChiQKBgQDltMeYX56bH1OXUktJ\nC+Y93p519xZbl8Vg160hXCMkmuLINW5+/RQEN2akdC4Gxdid4fVOfYx6UN4qupiU\nWSRB8+28FTKbORQ60jyZwiyVmVQ7WFSDGh68Ew8agvRItiBsDVB95QoaETiiDReT\nG0XanWehxpzMu4M+jqJA/6nsxQKBgQDYzZ7yTfAfu5LvtzkfQ9gaMoB8KO/x1n1D\njjmmv9itF4gcpVGbJifxTR49gUm0mWJqPyRPcFXbme7bxCnHWd1ZUUFOz55i23/s\nyEPXrUQWHiiw8QZGCEec7lFGs2FHTYyKMZqXbkTcWiO8xzn031Qo5Q+la/ksIjpm\nRD6k2ZNPwwKBgGP55tVe6L1DSTKXUsUcNL3A4t8dB9IdoH6h4GygmXsZHpNdDhaf\nN9MN+dKh7lZsTfeJnSboZffmsouOY1JN6gX6kQJHh5sfoLppPo79gEIsVgjuTPoy\nqCXbdbtoO8JZ4oqk0N+6jEcEL834PMZ+HE0mLTCwLRa+lkTn956qp96xAoGBAL7o\nSVdaU+DNfjTB5XXneuqOn980+Ry+X61WFuQDuRuqRfvbg0GYVsG/w6orJ6j1C9k8\n4o9k/uWR5ef1E0jsk+Irj9ODNRgd6sapDjxj4TmMsw4kHv8aGV1R6ZXVLQrpeaDS\nzysbOV3DrgZ0dE9xPJ2KHr3ulwpK1Zvp6jOlN3ebAoGADvE/gr4vHmzoIFUejpCM\ndJ9RppM9zkYposb3Ih8mE323AXR233TBd8jhTR2ReFcMqFPZzL3KEwyZW32kGelE\n4pMn/rG8ydRVtTzHRHI6gM25KOK713jGJJ0Hn8lnEDTva3QzU8jj002/OtQOEDRW\n7RRRZDq0W6REpnO6jpUO/tU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "allpubsub@stalwart-realm-339201.iam.gserviceaccount.com",
+  "client_id": "111051131393731273393",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/allpubsub%40stalwart-realm-339201.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
